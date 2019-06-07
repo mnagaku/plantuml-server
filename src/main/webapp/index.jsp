@@ -28,17 +28,7 @@
     <link rel="icon" href="${contextroot}/favicon.ico" type="image/x-icon"/> 
     <link rel="shortcut icon" href="${contextroot}/favicon.ico" type="image/x-icon"/>
     <link rel="stylesheet" href="${contextroot}/plantuml.css" />
-    <link rel="stylesheet" href="${contextroot}/webjars/codemirror/3.21/lib/codemirror.css" />
-    <script src="${contextroot}/webjars/codemirror/3.21/lib/codemirror.js"></script>
     <!-- <script src="mode/plantuml.js"></script> -->
-    <script>
-        window.onload = function() {
-            var myCodeMirror = CodeMirror.fromTextArea(
-                document.getElementById("text"), 
-                {lineNumbers: true}
-            );
-        };
-    </script>
     <title>PlantUMLServer</title>
 </head>
 <body>
